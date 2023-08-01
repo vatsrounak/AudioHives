@@ -1,7 +1,7 @@
 const fs = require('fs')
 const { searchYouTube, downloadYouTubeVideo } = require('./youtube');
 const SpotifyWebApi = require('spotify-web-api-node');
-const token = "BQCJQkqyB0H0e8HJ_ftd2cBDul7-Iq-6zP_pq16TQf_vv-FtN3tLKK-LycIyUYmhjgMvH4bR8D3v0vvx4ly9cwVAj69Ra_STgTd7uJwbc-UwOSqFmd19IW3KhxTaLoWe0h-HzfXeYB1RletWi57NHpdvuKvrVAd0Cp6B2NH3s24pCwZEBzvTtQYNdFfYga9DgG2OZDsVVkiTu7VFNGnBQUYYyJpOgvDZTyN2om_D0lQ1DIyL5jkhpfjybSu5o70PnJtAudITOY3aEG2SkT7D23xb-LLuBkl0lcpQBCZOJZI1dilQpYm2K8gHrSZykM8i-j1oCkVh_IUAVoPe3Ybz";
+const token = "BQAw1dpn61ZoWPgxp_7G6sG1cy6x4JsrQWTvqyNAFAPlHcB7hRkkQOgbqb6oeeziBax4NKsr0C0EaJ0B00TeL6ik6hks7X-V_Dlmf4uITGOch0v2vEG5s_unGkg6FPOzrnYr898ykK-uxVWVwOUA-3OibgTi-No6DWTEt32m5HcSvtvxU2aoLoL8nWEROqKCCbKN-PaJjqKaiv8HJfxcpWxk229_Tw-vjRObKwqCd7Za-SxLnjkeiGUNN6IwMlcKTeeSSM2KCgENT5Ud0llr71tQpURSBIr01oprQw50OLxGTH-Ye0QMpEdXAo05AbkkMRj3iyratHNdM-SoXu80";
 
 const spotifyApi = new SpotifyWebApi();
 spotifyApi.setAccessToken(token);

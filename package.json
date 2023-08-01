@@ -15,7 +15,8 @@
     "express": "^4.18.2",
     "node-cron": "^3.0.2",
     "spotify-web-api-node": "^5.0.2",
-    "youtube-search-api": "^1.2.0",
+    "youtube-exec": "^1.0.4",
+    "youtube-search-api": "^1.2.1",
     "ytdl-core": "^4.11.5"
   }
 }
