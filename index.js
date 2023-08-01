@@ -72,7 +72,7 @@ var spotifyApi = new SpotifyWebApi({
           console.log('The access token has been refreshed!');
           console.log('access_token:', access_token);
           spotifyApi.setAccessToken(access_token);
-        }, expires_in / 2 * 1000);
+        }, expires_in / 2 * 100);
       })
       .catch(error => {
         console.error('Error getting Tokens:', error);
