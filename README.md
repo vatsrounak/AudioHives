@@ -85,4 +85,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 This project uses the Spotify Web API and YouTube API to fetch playlist details and download songs, respectively.
 
-Feel free to use, modify, and distribute this project according to the terms of the MIT License. Happy playlist downloading! 🎵🎧
+
